@@ -43,6 +43,15 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
         <section id="main_content" class="inner">
+                <ul>
+                        { % for video in site.data.videos % }
+                          <li>
+                            <a href="https://www.bilibili.com/video/{ { video.avno } }">
+                              { { video.name } }
+                            </a>
+                          </li>
+                        { % endfor % }
+                    </ul>
             {{ content }}
         </section>
     </div>
