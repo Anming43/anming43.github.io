@@ -7,7 +7,7 @@ title: Home Page
     { % for video in site.data.videos % }
       <li class="list-group-item">
         <a href="https://www.bilibili.com/video/{ { video.avno } }">
-          { { member.name } }
+          { { video.name } }
         </a>
       </li>
     { % endfor % }

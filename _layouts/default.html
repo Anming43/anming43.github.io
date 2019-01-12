@@ -5,10 +5,10 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="icon" href="/assets/images/logo.png" type="image/x-icon" />
     <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     {% seo %}
 </head>
@@ -25,9 +25,11 @@
             <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
             <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
-            <div class="btn-group" role="group">
+            <div>
                 <a href="https://github.com/Anming43">GitHub</a>
+                <hr/>
                 <a href="https://space.bilibili.com/1335306">Bilibili投稿</a>
+                <hr/>
                 <a href="https://live.bilibili.com/457758">Bilibili直播间</a>
             </div>
 
