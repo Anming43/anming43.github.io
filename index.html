@@ -3,3 +3,12 @@ layout: default
 title: Home Page
 ---
 
+<ul>
+    { % for member in site.data.members % }
+      <li>
+        <a href="https://www.bilibili.com/video/{ { member.github } }">
+          { { member.name } }
+        </a>
+      </li>
+    { % endfor % }
+</ul>
