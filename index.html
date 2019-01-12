@@ -3,31 +3,25 @@ layout: default
 title: Home Page
 ---
 
+<ul>
+  <li><span>最近在看的小说：</span><span>剑来</span></li>
+  <li><span>最近在看的剧：</span><span>无</span></li>
+  <li><span>最近在玩的游戏：</span><span>最终幻想14</span></li>
+  <li><span>最近开的坑：<span><a>文件同步小程序</a></li>
+</ul>
 
 <div class="panel panel-default col-md-3 col-md-offset-3">
-    <div class="panel-heading"><h3>博文</h3></div>
-    <div class="panel-body">
-        <ul>
-            {% for post in site.posts %}
-              <li>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <span class="post-date">[{{ post.category }}]</span>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </li>
-            {% endfor %}
-        </ul>
-    </div>
+  <div class="panel-heading"><h3>博文</h3></div>
+  <div class="panel-body">
+      <ul>
+          {% for post in site.posts %}
+            <li>
+              <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <span class="post-date">[{{ post.category }}]</span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+      </ul>
   </div>
+</div>
 
-  <div class="panel panel-default col-md-3 ">
-      <div class="panel-heading"><h3>视频投稿</h3></div>
-      <div class="panel-body">
-          <ul>
-              {% for video in site.data.videos %}
-                <li>
-                  <a href="https://www.bilibili.com/video/{{ video.avno }}">{{ video.name }}</a>
-                </li>
-              {% endfor %}
-          </ul>
-      </div>
-    </div>
