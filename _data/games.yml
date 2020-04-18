@@ -1,0 +1,35 @@
+- name:古墓丽影
+  keyword:遗迹探险
+  played:8,9,rise,shadow
+
+- name:看门狗
+  keyword:黑客
+  played:1,2
+  
+- name:生化危机
+  keyword:丧尸
+  played:启示录1,启示录2,5,6,7,重置3
+
+- name:虐杀原形
+  keyword:异能
+  played:1,2
+
+- name:最终幻想14
+  keyword:MMORPG
+  played:v5.0
+
+- name:战国无双
+  keyword:动作,策略,多人
+  played:1
+
+- name:prey
+  keyword:太空
+  played:无系列
+
+- name:瘟疫公司
+  keyword:策略
+  played:无系列
+
+- name:反叛公司
+  keyword:策略
+  played:无系列
