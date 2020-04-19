@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: musicpage
 title: 音乐
 ---
