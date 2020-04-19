@@ -11,7 +11,7 @@
   played:启示录1,启示录2,5,6,7,重置3
 
 - name:虐杀原形
-  keyword:异能
+  keyword:异能,动作
   played:1,2
 
 - name:最终幻想14
@@ -23,7 +23,7 @@
   played:1
 
 - name:prey
-  keyword:太空
+  keyword:太空,异形
   played:无系列
 
 - name:瘟疫公司
@@ -33,3 +33,15 @@
 - name:反叛公司
   keyword:策略
   played:无系列
+
+- name:量子破碎
+  keyword:科幻,时间穿梭
+  played:无系列
+
+- name:重返狼穴
+  keyword:独斗纳粹
+  played:旧血液,新秩序
+
+- name:层层恐惧
+  keyword:恐怖
+  played:1,2

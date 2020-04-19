@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="panel panel-default col-md-3 col-md-offset-3">
+  <div class="panel-heading">
+    <h3>博文</h3>
+  </div>
+  <div class="panel-body">
+    <ul>
+      {% for member in site.data[page.datatype] %}
+        <li>
+          <a>
+            {{ member.name }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+  </div>
+</div>
