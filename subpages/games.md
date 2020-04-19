@@ -1,5 +1,4 @@
 ---
-layout: default
+layout: gamepage
 title: 游戏
-datatype: games
 ---
