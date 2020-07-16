@@ -19,4 +19,8 @@ title: sites
 ### 其他实用网站
 + [uwp安装包提取](https://store.rg-adguard.net/)
 + [natapp 内网穿透](https://natapp.cn/)
-+ [user.me](https://uzer.me/)
++ [user.me 网页应用](https://uzer.me/)
+
+### 几款免费软件
++ [FreeFileSync 文件同步](https://freefilesync.org/)
++ [Pismo File Mount 压缩包挂载](https://pismotec.com/)
