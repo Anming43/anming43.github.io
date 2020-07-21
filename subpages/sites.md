@@ -24,3 +24,5 @@ title: sites
 ### 几款免费软件
 + [FreeFileSync 文件同步](https://freefilesync.org/)
 + [Pismo File Mount 压缩包挂载](https://pismotec.com/)
++ [VoiceMeeter Banana 虚拟混音器](https://www.vb-audio.com/Voicemeeter/banana.htm)
++ [Motrix 下载器](https://motrix.app/zh-CN/)
